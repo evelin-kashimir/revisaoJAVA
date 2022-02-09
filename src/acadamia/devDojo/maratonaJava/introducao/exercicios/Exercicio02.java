@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.introducao;
+package acadamia.devDojo.maratonaJava.introducao.exercicios;
 
 //Dado um determinado salário, calcular o imposto a ser pago;
 

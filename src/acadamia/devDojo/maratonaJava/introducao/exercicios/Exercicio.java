@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.introducao;
+package acadamia.devDojo.maratonaJava.introducao.exercicios;
 
 public class Exercicio {
 

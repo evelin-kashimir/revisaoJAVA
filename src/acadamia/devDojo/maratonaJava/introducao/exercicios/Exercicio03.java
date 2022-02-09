@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.introducao;
+package acadamia.devDojo.maratonaJava.introducao.exercicios;
 
 //Imprimir todos os números pares de 0 até 1000000
 public class Exercicio03 {
