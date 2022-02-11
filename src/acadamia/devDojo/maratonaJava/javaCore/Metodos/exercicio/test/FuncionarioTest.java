@@ -24,9 +24,9 @@ public class FuncionarioTest {
         System.out.print("Insira o terceiro: R$");
         double sal3 = sc.nextDouble();
 
-        funcionario.nome = nome;
-        funcionario.idade = idade;
-        funcionario.salario = new double[]{sal1, sal2, sal3};
+        funcionario.setNome(nome);
+        funcionario.setIdade(idade);
+        funcionario.setSalario(new double[]{sal1, sal2, sal3});
 
         funcionario.imprimeDados();
         funcionario.mediaSalario(sal1, sal2, sal3);
