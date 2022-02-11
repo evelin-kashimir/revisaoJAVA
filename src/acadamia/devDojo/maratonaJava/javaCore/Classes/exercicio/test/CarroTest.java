@@ -1,6 +1,6 @@
-package acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio01.test;
+package acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio.test;
 
-import acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio01.domain.Carro;
+import acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio.domain.Carro;
 
 //Criar dois objetos distintos e imprimir os valores
 public class CarroTest {

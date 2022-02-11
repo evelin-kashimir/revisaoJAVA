@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio01.domain;
+package acadamia.devDojo.maratonaJava.javaCore.Classes.exercicio.domain;
 
 //Criar uma classe carro com os seguintes atributos
 public class Carro {
