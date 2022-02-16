@@ -24,4 +24,8 @@ public class Carro {
     public String getNome() {return nome;}
     public double getVelocidadeMaxima() {return velocidadeMaxima;}
 
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite; //o atributo pertence a Classe, não pode usar this
+    }
+
 }
