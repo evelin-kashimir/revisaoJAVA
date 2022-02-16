@@ -3,7 +3,9 @@ package acadamia.devDojo.maratonaJava.javaCore.Heranca.domain;
 public class Funcionario extends Pessoa {
     private double salario;
 
-
+    public Funcionario(String nome){
+        super(nome);
+    }
 
     public double getSalario() {
         return salario;
@@ -17,5 +19,9 @@ public class Funcionario extends Pessoa {
     public void imprime() {
         super.imprime();
         System.out.println(this.salario);
+    }
+
+    public void relatorioPagamento(){
+        System.out.println(this.nome);
     }
 }
