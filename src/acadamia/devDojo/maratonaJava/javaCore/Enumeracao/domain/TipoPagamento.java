@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.javaCore.Enume.domain;
+package acadamia.devDojo.maratonaJava.javaCore.Enumeracao.domain;
 
 public enum TipoPagamento {
        //implementando o método para a enumeracao debito evitando o uso de if nos metodos

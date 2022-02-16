@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.javaCore.Enume.domain;
+package acadamia.devDojo.maratonaJava.javaCore.Enumeracao.domain;
 
 public class Cliente {
 
