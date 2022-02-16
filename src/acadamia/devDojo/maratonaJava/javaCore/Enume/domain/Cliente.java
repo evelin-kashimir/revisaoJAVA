@@ -1,9 +1,7 @@
 package acadamia.devDojo.maratonaJava.javaCore.Enume.domain;
 
 public class Cliente {
-    public enum TipoPagamento {
-        DEBITO, CREDITO
-    }
+
     private String nome;
     private TipoCliente tipoCliente; //relacionando a enumeraçao
     private TipoPagamento tipoPagamento;
