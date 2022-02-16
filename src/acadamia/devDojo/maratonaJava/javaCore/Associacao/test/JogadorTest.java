@@ -8,14 +8,11 @@ public class JogadorTest {
         Jogador jogador01 = new Jogador("Pelé");
         Jogador jogador02 = new Jogador("Romário");
         Jogador jogador03 = new Jogador("Cafú");
-
-        Jogador jogador05 = new Jogador("Neymar");
+        Jogador jogador04 = new Jogador("Neymar");
         Time time = new Time("Seleção Brasileira");
 
-        jogador05.imprime();
-
-        jogador05.setTime(time);
-        jogador05.imprime();
+        jogador04.setTime(time);
+        jogador04.imprime();
 
         Jogador[] jogadors = new Jogador[3];
         Jogador[]jogadores = new Jogador[]{jogador01, jogador02, jogador03};
@@ -23,5 +20,8 @@ public class JogadorTest {
         for(Jogador jog: jogadores){
             jog.imprime();
         }
+
+
+
     }
 }
