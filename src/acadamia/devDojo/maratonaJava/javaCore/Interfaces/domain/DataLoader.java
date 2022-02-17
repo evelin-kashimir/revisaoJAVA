@@ -6,5 +6,9 @@ public interface DataLoader {
   void checkPermission();
   default void metodoConcreto(){
     System.out.println("Fazendo o teste sem alterar nada...");
+
+    //modificadores de acesso
+    // private -> default -> protected -> publico
+
   }
 }
