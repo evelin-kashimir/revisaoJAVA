@@ -12,5 +12,13 @@ public class DataLoaderTest {
         FileLoader fileLoader = new FileLoader();
         databaseLoader.load();
         fileLoader.load();
+        fileLoader.remove();
+        databaseLoader.remove();
+        databaseLoader.metodoConcreto();
+        databaseLoader.metodoConcreto();
+
+
+
+
     }
 }
