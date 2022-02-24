@@ -17,7 +17,8 @@ public class RuntimeExceptionTest04 {
             System.out.println("Dentro do IndexOutOfBoundsException");
         }
 
-        //Exceções sempre devem ser tratadas no final, caso contrario aoutras exceções específicas serão ignoradas
+        //Exceções Genericas sempre devem ser tratadas no final, caso contrario as outras exceções
+        //específicas serão ignoradas
         catch (RuntimeException e){
             System.out.println("Dentro do RuntimeException ");
         }
