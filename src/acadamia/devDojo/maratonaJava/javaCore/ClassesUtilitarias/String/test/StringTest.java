@@ -13,6 +13,6 @@ public class StringTest {
 
         String nome3 = new String("Evelin"); //criando um objeto
         System.out.println(nome2 == nome3); // tipos diferentes um é objeto o outro é variavel
-        System.out.println(nome2 == nome3.intern()); //intern compara o valor
+        System.out.println(nome2 == nome3.intern()); //intern pega o valor
     }
 }
