@@ -1,4 +1,4 @@
-package acadamia.devDojo.maratonaJava.javaCore.ClassesUtilitarias.Date.test;
+package acadamia.devDojo.maratonaJava.javaCore.ClassesUtilitarias.Dates.test;
 
 import java.util.Date;
 
